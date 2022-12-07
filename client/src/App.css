@@ -1,0 +1,68 @@
+body {
+  overflow: overlay;
+  /* overflow: hidden; */
+}
+
+/* glassmorphism */
+
+.glassmorphism-barsong {
+  background: rgba(34, 34, 34, 0.86);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.glassmorphism-card-song {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.glassmorphism-card-song:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transition: all linear 0.2s;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 4px;
+}
+
+.glassmorphismNavbar {
+  background: rgba(34, 34, 34, 0.86);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.glassmorphism-modal {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  opacity: 0.2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 34, 34, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
